@@ -89,29 +89,29 @@ export default function Contact() {
           <div className="lg:col-span-5 space-y-8">
             {/* Office Card */}
             <div className="bg-surface-container-low p-8 rounded-3xl space-y-6 border border-outline-variant">
-              <h3 className="text-2xl font-bold text-primary">Global Headquarters</h3>
+              <h3 className="text-2xl font-bold text-primary">Registered Office</h3>
               <div className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-secondary mt-1" />
                 <div>
-                  <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Office Address</p>
+                  <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Registered Address</p>
                   <p className="text-sm text-on-surface-variant leading-relaxed">
-                    One Financial Plaza, Suite 2200<br/>
-                    New York, NY 10004
+                    8 The Green, Ste A<br/>
+                    Dover, DE 19901, USA
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Phone className="w-5 h-5 text-secondary mt-1" />
                 <div>
-                  <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Phone Number</p>
-                  <p className="text-sm text-on-surface-variant leading-relaxed">+1 (212) 555-0198</p>
+                  <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Registered Agent Phone</p>
+                  <p className="text-sm text-on-surface-variant leading-relaxed">+1 (302) 288-0670</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Mail className="w-5 h-5 text-secondary mt-1" />
                 <div>
                   <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Direct Email</p>
-                  <p className="text-sm text-on-surface-variant leading-relaxed">inquiry@primebridge.com</p>
+                  <p className="text-sm text-on-surface-variant leading-relaxed">inquiry@primebridgesolutions.com</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Contact() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl shadow-sm border border-outline-variant">
                 <p className="text-xs font-bold text-primary flex items-center gap-2">
                   <Globe className="w-4 h-4" /> 
-                  NYC Financial District
+                  Dover, Delaware
                 </p>
               </div>
             </div>

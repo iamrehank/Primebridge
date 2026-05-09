@@ -123,13 +123,13 @@ export default function About() {
               <div className="space-y-12 relative before:content-[''] before:absolute before:left-3 before:top-4 before:bottom-4 before:w-[2px] before:bg-outline-variant/40">
                 <div className="relative pl-12">
                   <div className="absolute left-0 top-2 w-6 h-6 rounded-full bg-secondary-fixed border-4 border-white z-10"></div>
-                  <span className="text-xs font-bold text-secondary block mb-2 tracking-widest uppercase">2018 — FOUNDATION</span>
+                  <span className="text-xs font-bold text-secondary block mb-2 tracking-widest uppercase">April 2025 — FOUNDATION</span>
                   <h4 className="text-xl font-bold text-on-surface mb-2">Establishing Strategic Roots</h4>
-                  <p className="text-on-surface-variant text-sm">Established with a vision to revolutionize the BPO sector through high-end strategic consultancy and institutional trust.</p>
+                  <p className="text-on-surface-variant text-sm">Incorporated in Delaware (File No. 10171932) with a vision to revolutionize the BPO sector through high-end strategic consultancy and institutional trust.</p>
                 </div>
                 <div className="relative pl-12">
                   <div className="absolute left-0 top-2 w-6 h-6 rounded-full bg-secondary-fixed border-4 border-white z-10"></div>
-                  <span className="text-xs font-bold text-secondary block mb-2 tracking-widest uppercase">2021 — EXPANSION</span>
+                  <span className="text-xs font-bold text-secondary block mb-2 tracking-widest uppercase">2025 — EXPANSION</span>
                   <h4 className="text-xl font-bold text-on-surface mb-2">Bridging Marketing and Operations</h4>
                   <p className="text-on-surface-variant text-sm">Launched our full-service digital marketing division, bridging the critical gap between front-end operations and scalable growth.</p>
                 </div>
@@ -137,7 +137,7 @@ export default function About() {
                   <div className="absolute left-0 top-2 w-6 h-6 rounded-full bg-primary border-4 border-white z-10 shadow-lg"></div>
                   <span className="text-xs font-bold text-primary block mb-2 tracking-widest uppercase">TODAY — INNOVATION</span>
                   <h4 className="text-xl font-bold text-on-surface mb-2">Global Excellence Benchmark</h4>
-                  <p className="text-on-surface-variant text-sm">A trusted global partner for Fortune 500 companies, committed to excellence and precision in every operational facet.</p>
+                  <p className="text-on-surface-variant text-sm">A trusted strategic partner for enterprises worldwide, committed to excellence and precision in every operational facet.</p>
                 </div>
               </div>
             </div>

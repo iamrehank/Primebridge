@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { Handshake, Shield, TrendingUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const partners = [
@@ -61,8 +62,8 @@ export default function Home() {
               transition={{ delay: 0.5 }}
               className="flex flex-wrap gap-4"
             >
-              <button className="bg-secondary-container text-on-secondary-container px-8 py-4 rounded font-bold shadow-lg hover:brightness-110 transition-all">Get a Quote</button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded font-bold hover:bg-white/10 transition-all backdrop-blur-sm">Our Expertise</button>
+              <Link to="/contact" className="bg-secondary-container text-on-secondary-container px-8 py-4 rounded font-bold shadow-lg hover:brightness-110 transition-all">Get a Quote</Link>
+              <Link to="/contact" className="border-2 border-white text-white px-8 py-4 rounded font-bold hover:bg-white/10 transition-all backdrop-blur-sm">Our Expertise</Link>
             </motion.div>
           </div>
         </div>

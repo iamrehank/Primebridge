@@ -31,8 +31,9 @@ export default function Navbar() {
           >
             {mobileOpen ? <X className="w-6 h-6 text-primary" /> : <Menu className="w-6 h-6 text-primary" />}
           </button>
-          <Link to="/" className="text-xl font-extrabold tracking-tighter text-primary select-none">
-            Primebridge
+          <Link to="/" className="select-none">
+            <img src="/images/logo.png" alt="Primebridge" className="md:hidden h-13 w-auto" />
+            <img src="/images/logo.png" alt="Primebridge" className="hidden md:block h-13 w-auto" />
           </Link>
         </div>
 
