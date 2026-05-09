@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #000000;
+  --color-secondary: #735c00;
+  --color-background: #f8f9fa;
+  --color-on-background: #191c1d;
+  --color-on-surface: #191c1d;
+  --color-surface-container: #edeeef;
+  --color-surface-container-low: #f3f4f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-outline-variant: #c3c7c9;
+  --color-secondary-container: #fed65b;
+  --color-on-secondary-container: #745c00;
+  --color-primary-fixed: #d6e5e9;
+  --color-secondary-fixed: #ffe088;
+  --color-on-surface-variant: #424849;
+  --color-inverse-surface: #2e3132;
+  --color-inverse-on-surface: #f0f1f2;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-sans antialiased;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(238, 238, 238, 0.5);
+}
