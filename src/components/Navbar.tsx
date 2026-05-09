@@ -45,9 +45,7 @@ export default function Navbar({ currentPage, setPage }: NavbarProps) {
       </nav>
 
       <div className="flex items-center gap-4">
-        <button className="p-1 hover:bg-surface-container-low rounded-full transition-colors active:scale-95">
-          <UserCircle className="w-6 h-6 text-primary" />
-        </button>
+       
       </div>
     </header>
   );
