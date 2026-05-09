@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Helmet } from 'react-helmet-async';
 import { Handshake, Shield, TrendingUp } from 'lucide-react';
 
 export default function Home() {
@@ -16,6 +17,15 @@ export default function Home() {
       exit={{ opacity: 0 }}
       className="flex flex-col"
     >
+      <Helmet>
+        <title>Primebridge Marketing Solutions | Elite BPO & Marketing</title>
+        <meta name="description" content="Primebridge empowers global enterprises through strategic process outsourcing, high-performance marketing, and operational excellence." />
+        <meta property="og:title" content="Primebridge Marketing Solutions | Elite BPO & Marketing" />
+        <meta property="og:description" content="Primebridge empowers global enterprises through strategic process outsourcing, high-performance marketing, and operational excellence." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.primebridgesolutions.com/" />
+        <link rel="canonical" href="https://www.primebridgesolutions.com/" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative min-h-[80vh] flex items-center overflow-hidden px-6 md:px-0">
         <div className="absolute inset-0 z-0">
@@ -28,14 +38,7 @@ export default function Home() {
         </div>
         <div className="container mx-auto relative z-10 max-w-7xl px-6">
           <div className="max-w-3xl">
-            <motion.img 
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.2 }}
-              className="h-16 mb-8 brightness-0 invert opacity-90"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_NTIO7eu0gov7fihLdY8I0gvV3sGid1gLaJqdkaxC0y5FpCbv4cRLfurJiZAGZSjp-qGwBNgQ-4MOCf4_lVWtR0V6gbNG1G1jiOUAJgc75I1RgpQQX5jMJ84cIJKDMpEInL_fsjTvjFQRohmLa92p3nKduWq1PaARetvXisJbzriI-dDrprNkcOD3baG91ZvVxhdBxREoAMRKKDI2ikhHmbKL1S7M6M-xn9cw9UBgW3S5k8EHK4wFeSZ7ARiWvJeCwA89I8af8W8N"
-              alt="Primebridge Logo"
-            />
+       
             <motion.h1 
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -164,7 +167,7 @@ export default function Home() {
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-24 bg-surface">
+      {/* <section className="py-24 bg-surface">
         <div className="container mx-auto max-w-7xl px-6 text-center">
           <p className="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-12">Trusted by Fortune 500 Industry Leaders</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 grayscale opacity-50">
@@ -173,7 +176,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </motion.div>
   );
 }

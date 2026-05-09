@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Helmet } from 'react-helmet-async';
 import { MapPin, Phone, Mail, Globe } from 'lucide-react';
 
 export default function Contact() {
@@ -9,6 +10,14 @@ export default function Contact() {
       exit={{ opacity: 0 }}
       className="pt-24 pb-32"
     >
+      <Helmet>
+        <title>Contact Us | Primebridge Marketing Solutions</title>
+        <meta name="description" content="Get in touch with Primebridge's expert team. Request a consultation for BPO transformation, digital strategy, or operational excellence solutions." />
+        <meta property="og:title" content="Contact Us | Primebridge Marketing Solutions" />
+        <meta property="og:description" content="Connect with Primebridge experts for sophisticated, data-driven solutions tailored to your organization's unique challenges." />
+        <meta property="og:url" content="https://www.primebridgesolutions.com/contact" />
+        <link rel="canonical" href="https://www.primebridgesolutions.com/contact" />
+      </Helmet>
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero Section */}
         <section className="mb-24 flex flex-col md:flex-row items-center gap-16">

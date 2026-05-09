@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Helmet } from 'react-helmet-async';
 import { Rocket, Eye, ShieldCheck, TrendingUp, Network } from 'lucide-react';
 
 export default function About() {
@@ -27,6 +28,14 @@ export default function About() {
       exit={{ opacity: 0 }}
       className="pt-24 pb-32"
     >
+      <Helmet>
+        <title>About Us | Primebridge Marketing Solutions</title>
+        <meta name="description" content="Learn about Primebridge's mission, vision, core values, and heritage of delivering elite BPO and marketing solutions to global enterprises since 2018." />
+        <meta property="og:title" content="About Us | Primebridge Marketing Solutions" />
+        <meta property="og:description" content="Primebridge is a premier strategic partner specializing in marketing excellence and business process outsourcing." />
+        <meta property="og:url" content="https://www.primebridgesolutions.com/about" />
+        <link rel="canonical" href="https://www.primebridgesolutions.com/about" />
+      </Helmet>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 mb-24">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">

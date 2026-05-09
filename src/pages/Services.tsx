@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Helmet } from 'react-helmet-async';
 import { Headset, Database, Landmark, BarChart3, Target, Megaphone, LineChart } from 'lucide-react';
 
 export default function Services() {
@@ -50,6 +51,14 @@ export default function Services() {
       exit={{ opacity: 0 }}
       className="pt-24 pb-32"
     >
+      <Helmet>
+        <title>Our Services | Primebridge Marketing Solutions</title>
+        <meta name="description" content="Explore Primebridge's BPO services including customer support, data entry, back office operations, digital strategy, lead generation, and brand positioning." />
+        <meta property="og:title" content="Our Services | Primebridge Marketing Solutions" />
+        <meta property="og:description" content="High-fidelity BPO and digital marketing strategies tailored for institutional growth and operational excellence." />
+        <meta property="og:url" content="https://www.primebridgesolutions.com/services" />
+        <link rel="canonical" href="https://www.primebridgesolutions.com/services" />
+      </Helmet>
       <section className="max-w-7xl mx-auto px-6 mb-20 text-center">
         <div className="inline-block px-4 py-1 mb-6 bg-secondary-container/20 text-on-secondary-container rounded-full font-bold uppercase tracking-widest text-[10px]">
           OUR EXPERTISE
@@ -84,7 +93,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="relative py-24 mb-24 overflow-hidden -mx-6 md:mx-auto max-w-7xl md:rounded-3xl">
+      <section className="relative py-24 mb-24 overflow-hidden mx-0 md:mx-6 lg:mx-auto max-w-7xl md:rounded-3xl">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu-Ae4FMn3Q3TDVqHbUgY3hzUd3oPLkOIAKg1PQmD7-M_k5JtrFoRsnZjI2qFQRhYQzZVL8RsaI-FRWu4hC42YW7sAoWUEd822XEx5oN-Y_lJZ8Lic0RvJxG3-yQJd_gJ_g-aitFDggCew3njnS7HXrJKyxYQ5br52MEJEUQRKnlHgGOGI-pYyKi0raE1N4AIJJoxaR0NePi2aNI7hWEzlUiTl9El5cWR1IVnXyFrs00Jdss_ae9BVUMtveOX-aMvUE1AkcCmVzLtM" 
@@ -126,7 +135,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-6 mb-24">
+      {/* <section className="max-w-7xl mx-auto px-6 mb-24">
         <h3 className="text-3xl font-bold text-primary text-center mb-16">Global Network, Local Presence</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 grayscale opacity-40">
            {['Global Bank', 'Tech Ventures', 'Nordic Logistics', 'Asia Capital'].map((brand, i) => (
@@ -135,7 +144,7 @@ export default function Services() {
              </div>
            ))}
         </div>
-      </section>
+      </section> */}
     </motion.div>
   );
 }
