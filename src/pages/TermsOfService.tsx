@@ -108,8 +108,8 @@ export default function TermsOfService() {
         <title>Terms of Service | Primebridge Marketing Solutions</title>
         <meta name="description" content="Review Primebridge Marketing Solutions' Terms of Service governing the use of our website and BPO and marketing services." />
         <meta property="og:title" content="Terms of Service | Primebridge Marketing Solutions" />
-        <meta property="og:url" content="https://www.primebridgesolutions.com/terms-of-service" />
-        <link rel="canonical" href="https://www.primebridgesolutions.com/terms-of-service" />
+        <meta property="og:url" content="https://www.primebridgemkt.com/terms-of-service" />
+        <link rel="canonical" href="https://www.primebridgemkt.com/terms-of-service" />
       </Helmet>
 
       {/* Header */}

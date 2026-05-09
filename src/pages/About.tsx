@@ -33,8 +33,8 @@ export default function About() {
         <meta name="description" content="Learn about Primebridge's mission, vision, core values, and heritage of delivering elite BPO and marketing solutions to global enterprises since 2018." />
         <meta property="og:title" content="About Us | Primebridge Marketing Solutions" />
         <meta property="og:description" content="Primebridge is a premier strategic partner specializing in marketing excellence and business process outsourcing." />
-        <meta property="og:url" content="https://www.primebridgesolutions.com/about" />
-        <link rel="canonical" href="https://www.primebridgesolutions.com/about" />
+        <meta property="og:url" content="https://www.primebridgemkt.com/about" />
+        <link rel="canonical" href="https://www.primebridgemkt.com/about" />
       </Helmet>
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 mb-24">

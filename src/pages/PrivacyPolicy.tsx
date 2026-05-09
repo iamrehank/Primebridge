@@ -113,8 +113,8 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy | Primebridge Marketing Solutions</title>
         <meta name="description" content="Read Primebridge Marketing Solutions' Privacy Policy to understand how we collect, use, and protect your personal information." />
         <meta property="og:title" content="Privacy Policy | Primebridge Marketing Solutions" />
-        <meta property="og:url" content="https://www.primebridgesolutions.com/privacy-policy" />
-        <link rel="canonical" href="https://www.primebridgesolutions.com/privacy-policy" />
+        <meta property="og:url" content="https://www.primebridgemkt.com/privacy-policy" />
+        <link rel="canonical" href="https://www.primebridgemkt.com/privacy-policy" />
       </Helmet>
 
       {/* Header */}

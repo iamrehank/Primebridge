@@ -56,8 +56,8 @@ export default function Services() {
         <meta name="description" content="Explore Primebridge's BPO services including customer support, data entry, back office operations, digital strategy, lead generation, and brand positioning." />
         <meta property="og:title" content="Our Services | Primebridge Marketing Solutions" />
         <meta property="og:description" content="High-fidelity BPO and digital marketing strategies tailored for institutional growth and operational excellence." />
-        <meta property="og:url" content="https://www.primebridgesolutions.com/services" />
-        <link rel="canonical" href="https://www.primebridgesolutions.com/services" />
+        <meta property="og:url" content="https://www.primebridgemkt.com/services" />
+        <link rel="canonical" href="https://www.primebridgemkt.com/services" />
       </Helmet>
       <section className="max-w-7xl mx-auto px-6 mb-20 text-center">
         <div className="inline-block px-4 py-1 mb-6 bg-secondary-container/20 text-on-secondary-container rounded-full font-bold uppercase tracking-widest text-[10px]">

@@ -15,8 +15,8 @@ export default function Contact() {
         <meta name="description" content="Get in touch with Primebridge's expert team. Request a consultation for BPO transformation, digital strategy, or operational excellence solutions." />
         <meta property="og:title" content="Contact Us | Primebridge Marketing Solutions" />
         <meta property="og:description" content="Connect with Primebridge experts for sophisticated, data-driven solutions tailored to your organization's unique challenges." />
-        <meta property="og:url" content="https://www.primebridgesolutions.com/contact" />
-        <link rel="canonical" href="https://www.primebridgesolutions.com/contact" />
+        <meta property="og:url" content="https://www.primebridgemkt.com/contact" />
+        <link rel="canonical" href="https://www.primebridgemkt.com/contact" />
       </Helmet>
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero Section */}
@@ -127,7 +127,7 @@ export default function Contact() {
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl shadow-sm border border-outline-variant">
                 <p className="text-xs font-bold text-primary flex items-center gap-2">
                   <Globe className="w-4 h-4" /> 
-                  Dover, Delaware
+               
                 </p>
               </div>
             </div>

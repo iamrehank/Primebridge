@@ -24,8 +24,8 @@ export default function Home() {
         <meta property="og:title" content="Primebridge Marketing Solutions | Elite BPO & Marketing" />
         <meta property="og:description" content="Primebridge empowers global enterprises through strategic process outsourcing, high-performance marketing, and operational excellence." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.primebridgesolutions.com/" />
-        <link rel="canonical" href="https://www.primebridgesolutions.com/" />
+        <meta property="og:url" content="https://www.primebridgemkt.com/" />
+        <link rel="canonical" href="https://www.primebridgemkt.com/" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative min-h-[80vh] flex items-center overflow-hidden px-6 md:px-0">
