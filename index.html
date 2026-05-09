@@ -6,6 +6,24 @@
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#000000" />
     <link rel="canonical" href="https://www.primebridgesolutions.com/" />
+    <script>
+      // GitHub Pages SPA: restore path from query param set by 404.html
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        var search = location.search;
+        if (search) {
+          var p = new URLSearchParams(search);
+          var path = p.get('p');
+          if (path) {
+            history.replaceState(null, null, '/Primebridge/' + path.replace(/~and~/g, '&'));
+          }
+        }
+      })();
+    </script>
     <title>Primebridge Marketing Solutions</title>
   </head>
   <body>
