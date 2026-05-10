@@ -91,7 +91,7 @@ const sections = [
       'For questions about these Terms of Service, please contact our legal team:',
       'Email: legal@primebridgesolutions.com',
       'Registered Address: 8 The Green, Ste A, Dover, DE 19901, USA',
-      'Registered Agent: A Registered Agent, Inc. — Phone: +1 (302) 288-0670',
+      'Phone: +1 (302) 618-2206',
     ],
   },
 ];
