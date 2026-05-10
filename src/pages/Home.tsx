@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Global Reach */}
-      <section className="bg-primary py-24 text-white overflow-hidden">
+      {/* <section className="bg-primary py-24 text-white overflow-hidden">
         <div className="container mx-auto max-w-7xl px-6">
           <div className="flex flex-col md:flex-row items-center gap-16">
             <div className="w-full md:w-1/2">
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Trust Indicators */}
       {/* <section className="py-24 bg-surface">
