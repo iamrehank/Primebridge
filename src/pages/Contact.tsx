@@ -1,8 +1,10 @@
 import { motion } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
 import { MapPin, Phone, Mail, Globe } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
+  const [state, handleSubmit] = useForm('mjglpzyl');
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -42,46 +44,81 @@ export default function Contact() {
           {/* Contact Form Section */}
           <div className="lg:col-span-7">
             <div className="glass-panel p-8 md:p-12 rounded-3xl shadow-sm border border-outline-variant">
-              <form className="space-y-8" onSubmit={(e) => e.preventDefault()}>
+              {state.succeeded ? (
+                <div className="flex flex-col items-center justify-center py-16 text-center">
+                  <div className="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center mb-6">
+                    <Mail className="w-8 h-8 text-on-secondary-container" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-on-surface mb-2">Message Sent!</h3>
+                  <p className="text-on-surface-variant">Thanks for reaching out. We'll be in touch shortly.</p>
+                </div>
+              ) : (
+              <form className="space-y-8" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Name</label>
-                    <input 
-                      className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" 
-                      placeholder="John Doe" 
+                    <label htmlFor="name" className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Name</label>
+                    <input
+                      id="name"
+                      name="name"
                       type="text"
+                      required
+                      className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all"
+                      placeholder="John Doe"
                     />
+                    <ValidationError prefix="Name" field="name" errors={state.errors} className="text-xs text-red-500 mt-1" />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Email Address</label>
-                    <input 
-                      className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" 
-                      placeholder="john@company.com" 
+                    <label htmlFor="email" className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Email Address</label>
+                    <input
+                      id="email"
+                      name="email"
                       type="email"
+                      required
+                      className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all"
+                      placeholder="john@company.com"
                     />
+                    <ValidationError prefix="Email" field="email" errors={state.errors} className="text-xs text-red-500 mt-1" />
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Service Interest</label>
-                  <select className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all appearance-none cursor-pointer">
-                    <option>Strategic Consultancy</option>
-                    <option>BPO Transformation</option>
-                    <option>Digital Integration</option>
-                    <option>Operational Excellence</option>
+                  <label htmlFor="service" className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Service Interest</label>
+                  <select
+                    id="service"
+                    name="service"
+                    className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all appearance-none cursor-pointer"
+                  >
+                    <option>Call Centre Support</option>
+                    <option>Customer Service</option>
+                    <option>Pay Per Click</option>
+                    <option>Lead Generation</option>
+                    <option>Social Media</option>
+                    <option>Inbound Traffic</option>
+                    <option>SMS Campaign</option>
+                    <option>Direct Mail / Postal Verification</option>
                   </select>
+                  <ValidationError prefix="Service" field="service" errors={state.errors} className="text-xs text-red-500 mt-1" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Message</label>
-                  <textarea 
-                    className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all" 
-                    placeholder="How can we help your business achieve its next milestone?" 
+                  <label htmlFor="message" className="text-[10px] font-bold text-primary block uppercase tracking-[0.2em]">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
                     rows={5}
-                  ></textarea>
+                    required
+                    className="w-full bg-white border border-outline-variant rounded-lg px-4 py-3 text-sm focus:border-secondary focus:ring-1 focus:ring-secondary outline-none transition-all"
+                    placeholder="How can we help your business achieve its next milestone?"
+                  />
+                  <ValidationError prefix="Message" field="message" errors={state.errors} className="text-xs text-red-500 mt-1" />
                 </div>
-                <button className="w-full md:w-auto bg-primary text-white px-10 py-4 rounded-lg font-bold shadow-lg hover:bg-on-surface transition-all duration-200" type="submit">
-                  Send Message
+                <button
+                  type="submit"
+                  disabled={state.submitting}
+                  className="w-full md:w-auto bg-primary text-white px-10 py-4 rounded-lg font-bold shadow-lg hover:bg-on-surface transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {state.submitting ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
+              )}
             </div>
           </div>
 

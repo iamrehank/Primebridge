@@ -40,18 +40,6 @@ const services = [
     desc: 'The traffic built through social media and marketing is generated and integrated by our inbound channel. Inbound traffic is always easier and more effective than outbound cold calling, delivering higher-quality customer interactions.',
     detail: 'With Inbound Traffic, you can connect with your target audience in a non-intrusive manner, allowing them to reach out to you on their own terms. This customer-centric approach not only boosts conversion rates but also enhances your brand\'s reputation as a responsive and customer-oriented business.',
   },
-  {
-    icon: MessageSquare,
-    title: 'SMS Campaign',
-    desc: 'Primebridge continuously enhances its SMS marketing platform, offering a wide range of tools including unsubscribe management, autoresponders, and fresh database updates for precise targeting. Cost-effective text marketing with cutting-edge techniques.',
-    detail: 'Text marketing proves consistently cost-effective compared to other marketing options. Through strong partnerships with direct response marketing leaders, we assist in crafting engaging text messaging campaigns from start to finish. Whether you need guidance launching your plan or a comprehensive mobile strategy, we deliver exceptional results.',
-  },
-  {
-    icon: Mail,
-    title: 'Direct Mail / Postal Verification',
-    desc: 'We construct our databases using a customer-centric relational model, enabling us to harness data effectively for optimizing marketing performance. This establishes a secure, high-speed processing environment with a single point of entry for all marketing information.',
-    detail: 'Our meticulous approach to direct mail and postal verification guarantees that your marketing endeavors reach the intended audience precisely when it matters most. Through thorough validation of postal information, we minimize errors and ensure accurate delivery, driving improved outcomes and maximizing return on your marketing investments.',
-  },
 ];
 
 export default function Services() {
