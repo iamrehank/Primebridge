@@ -49,7 +49,7 @@ export default function About() {
           <div className="md:col-span-6">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-primary/5">
               <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuASKhrpt_z2JgOcwZ3666FutOwoKzlitTEimxIryad6XlM4yLgnUOI-4g9ztW4HPsL5c0g5njDVYiN38rSxFFpCEBV86ZU0z_cDnpQfjsSkeDtBoIhsyaCe_fnsP18QZDfQmzjx2PiD3vlWteOK4VSFhgsngyao02Z8mfrTHkP0QXtz5Nd9ft81yPoLSNtThboI71ngFrsXekbUl_Zpr-ngIkCYTC6oPdnTjVZ7TizEZFB44KE2xr3faaxYOxo1wL_jQ4M3s3KWJrOF" 
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&auto=format&fit=crop&q=80" 
                 alt="Modern Office" 
                 className="w-full h-full object-cover"
               />
@@ -143,7 +143,7 @@ export default function About() {
             </div>
             <div className="relative min-h-[400px]">
               <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP2XLzJS47_UOdNVVhRPFSQbWgCTBRLT4RxA05VKtQrXfvXxwKasqDKKj0K7z8Y0TqcOMeBt2o19qvW8Fca40-Teyqbovk0peBgR13pOLmCrtFGQl8MjPB9CTxyyIs2EfhWvfHniAZ2149nSztxvu-_A6rqsOdaOuGT0dOaTkhVbDvy2EGGEg3cUEKVmGBzdRzC5xYl2G-jhzHVYVQrst3pQb2DUdx0swbjw_w2Tb8sK0uzVuzJAtHvged_y82FJYplI1NenUTnFu4" 
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&auto=format&fit=crop&q=80" 
                 alt="Primebridge professional team" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
