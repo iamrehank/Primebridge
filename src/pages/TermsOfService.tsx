@@ -89,7 +89,7 @@ const sections = [
     title: '11. Contact Information',
     content: [
       'For questions about these Terms of Service, please contact our legal team:',
-      'Email: legal@primebridgesolutions.com',
+      'Email: inquiry@primebridgemkt.com',
       'Registered Address: 8 The Green, Ste A, Dover, DE 19901, USA',
       'Phone: +1 (302) 618-2206',
     ],

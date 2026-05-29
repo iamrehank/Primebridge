@@ -148,7 +148,7 @@ export default function Contact() {
                 <Mail className="w-5 h-5 text-secondary mt-1" />
                 <div>
                   <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Direct Email</p>
-                  <p className="text-sm text-on-surface-variant leading-relaxed">inquiry@primebridgesolutions.com</p>
+                  <p className="text-sm text-on-surface-variant leading-relaxed">inquiry@primebridgemkt.com</p>
                 </div>
               </div>
             </div>

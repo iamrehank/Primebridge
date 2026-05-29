@@ -65,7 +65,7 @@ const sections = [
       'Right to Restrict Processing: You have the right to request that we restrict the processing of your personal data in certain circumstances.',
       'Right to Data Portability: You have the right to receive your personal data in a structured, commonly used, machine-readable format.',
       'Right to Object: You have the right to object to the processing of your personal data where we rely on legitimate interests as the legal basis.',
-      'To exercise any of these rights, please contact us at privacy@primebridgesolutions.com.',
+      'To exercise any of these rights, please contact us at inquiry@primebridgemkt.com.',,
     ],
   },
   {
@@ -94,7 +94,7 @@ const sections = [
     title: '11. Contact Us',
     content: [
       'If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our Data Protection Officer:',
-      'Email: privacy@primebridgesolutions.com',
+      'Email: inquiry@primebridgemkt.com',
       'Registered Address: 8 The Green, Ste A, Dover, DE 19901, USA',
       'Phone: +1 (302) 618-2206',
     ],
