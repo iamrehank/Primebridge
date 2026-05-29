@@ -165,6 +165,8 @@ export default function Contact() {
                 <p className="text-xs font-bold text-primary flex items-center gap-2">
                   <Globe className="w-4 h-4" /> 
                
+
+               
                 </p>
               </div>
             </div>
