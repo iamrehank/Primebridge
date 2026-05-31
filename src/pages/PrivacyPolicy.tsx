@@ -96,7 +96,7 @@ const sections = [
       'If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our Data Protection Officer:',
       'Email: inquiry@primebridgemkt.com',
       'Registered Address: 8 The Green, Ste A, Dover, DE 19901, USA',
-      'Phone: +1 (302) 618-2206',
+      'Phone: +1 (302) 618-3669',
     ],
   },
 ];

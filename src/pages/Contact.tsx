@@ -141,7 +141,7 @@ export default function Contact() {
                 <Phone className="w-5 h-5 text-secondary mt-1" />
                 <div>
                   <p className="text-[10px] font-bold text-primary mb-1 uppercase tracking-[0.2em]">Phone</p>
-                  <p className="text-sm text-on-surface-variant leading-relaxed">+1 (302) 618-2206</p>
+                  <p className="text-sm text-on-surface-variant leading-relaxed">+1 (302) 618-3669</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
